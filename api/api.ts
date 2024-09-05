@@ -1,0 +1,13 @@
+export * from './account.service';
+import { AccountService } from './account.service';
+export * from './commodities.service';
+import { CommoditiesService } from './commodities.service';
+export * from './crypto.service';
+import { CryptoService } from './crypto.service';
+export * from './currencies.service';
+import { CurrenciesService } from './currencies.service';
+export * from './indices.service';
+import { IndicesService } from './indices.service';
+export * from './stocks.service';
+import { StocksService } from './stocks.service';
+export const APIS = [AccountService, CommoditiesService, CryptoService, CurrenciesService, IndicesService, StocksService];
