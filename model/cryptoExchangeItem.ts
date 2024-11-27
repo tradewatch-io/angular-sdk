@@ -25,5 +25,13 @@ export interface CryptoExchangeItem {
      * Exchange established year
      */
     year_established: number;
+    /**
+     * Exchange country
+     */
+    country: string;
+    /**
+     * Exchange website URL
+     */
+    website: string;
 }
 
