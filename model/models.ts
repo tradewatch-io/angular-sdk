@@ -12,6 +12,8 @@ export * from './country';
 export * from './countryObj';
 export * from './cryptoConversion';
 export * from './cryptoConversionQuery';
+export * from './cryptoExchangeItem';
+export * from './cryptoExchangesList';
 export * from './cursorPageTCustomizedSymbolsOutFull';
 export * from './errorDetails';
 export * from './errorResponseBody';
